@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>Journal Entries - 3 Most Recent:</title>
+        <link 
+        rel="shortcut icon" 
+        href="screenshots/favicon.ico" 
+        type="image/x-icon">
+        <meta name = "publish date" content = "4/11/2021" />
+    </head>
+
+    <body>
+        <header>By Jonathan Deguzman</header>
+        <main>
+            <h1>My Last Three Days:</h1>
+            <nav>
+                <ul>
+                    <li><a href="#friday">Friday 4/9/2021</a></li>
+                    <li><a href="#saturday">Satudray 4/10/2021</a></li>
+                    <li><a href="#sunday">Sunday 4/11/2021</a></li>
+                </ul>
+            </nav>
+        </main>
+
+        <hr>
+        <br>
+
+        <section>
+        <a name="friday"></a>
+        <h2>Friday 4/9/2021</h2>
+
+        <p>I was in Las Vegas visiting my Aunt and Uncle
+            and we drove to see the Hoover Dam. I was surprised to find out 
+            that people as well as cars are still allowed on top of the dam. 
+            <br>
+            We were also going to 
+            go to the Grand Canyon, but the place we drove to had no public
+            access and we would have had to pay $45 per person to take a crowded
+            bus to see the actual canyon.</p>
+
+        <h3> The Depth of the Structure is Very Decieving:</h3>
+        <img 
+        src="screenshots/hoover.jpg"
+        width="500"
+        >
+
+        <p> There was also a <b>giant</b> bridge that almost looked <strong>more impressive</strong>
+            than the actual dam due to its size and minimal amount of concrete.</p>
+            <img 
+            src="screenshots/bridge.png"
+            width="500"
+            >   
+        </section>
+
+        <hr>
+        <br>
+
+        <section>
+            <a name="saturday"></a>
+            <h2>Satudray 4/10/2021</h2>
+            <p>I went to my friend's house in the evening for a while and the 
+                four of us ordered pizza, played some board games and a <em>small</em> amount
+                of video games, and watched <i>Cutthroat Kitchen</i>. My friend has a dog
+                and two cats; the dog is a very nice Pit bull named Cooper who had very soft fur.
+                 <br>
+                That day I also went to tutor math for my neighbor who is a Junior in high school.
+            
+            </p>
+            <br>
+
+            <h3>My Daily Audio Project:</h3>
+            <p>I worked on this only after completing my CSE110 review quiz of course.</p>
+            <audio controls
+                src="screenshots/piao piao kk slider.mp3">
+            </audio>
+
+        </section>
+
+        <hr>
+        <br>
+
+        <section>
+            <a name="sunday"></a>
+            <h2>Sunday 4/11/2021</h2>
+
+            <div class="list">
+                <h4>The Food I Ate Today:</h4>
+                <ol>
+                    <li><span style="color:orange">Roasted Carrots</span></li>
+                    <li>Flautas</li>
+                    <li>Soft-Boiled Eggs</li>
+                </ol>
+            </div>
+            <p>Today I played a single game of League of Legends and then
+                completed my CSE110 lab assignment.
+                <details>
+                    <summary>League Game Details</summary>
+                    I was playing Irelia top vs. Poppy. I suffered roughly
+                    5 ganks and 1 tower dive from the enemy Lee Sin and Galio.
+                    <br>
+                    Before winning I typed, "/all maybe if galio come top 2 or 3 
+                    more times u would have won" 
+                </details>
+                <br>
+                I also practiced the piano for a bit. I am currently working on
+                "Un Sospiro" by Franz Liszt.
+            </p>
+
+            <h3>My Dog Shortly Before Dinner:</h3>
+            <video controls>
+                <source src="screenshots/dog.mov">
+            </video>
+
+        </section>
+
+        <hr>
+        
+        <footer>
+            <br>
+            Created 4/11/2021
+            <hr>
+            <button type="button">
+                Login
+            </button>
+            <h3>New Entry:</h3>
+            <form>
+                <fieldset>
+                    <legend>Notify Subscribers</legend>
+                    <input type="radio" id="notify" name="status">
+                    <label for="notify">Yes</label>
+
+                    <input type="radio" id="donotnotify" name="status">
+                    <label for="donotnotify">No</label>
+                </fieldset>
+                <br>
+                <div>
+                    <label for="date">Date:</label>
+                    <input type="date" name="date" id="date" required><br>
+                    <p>Checklist of things I might have forgotten to do:</p>
+
+                    <input type="checkbox" name="ate" id="ate" >
+                    <label for="ate">Did You Remember to Eat Today?</label><br>
+
+                    <input type="checkbox" name="exe" id="exe" >
+                    <label for="exe">Did You Remember to Exercise Today?</label><br>
+
+                    <label for="song">What song did you focus on today?</label>
+                    <input list="songs" id="song" name="song">
+                    <datalist id="songs">
+                        <option value="Fantaisie Impromptu">
+                        <option value="Revolutionary Etude">
+                        <option value="Ocean Etude">
+                        <option value="Un Sospiro">
+                    </datalist><br>
+                    
+                    <label for="hw">Homework:</label>
+                    <select name="classes" id="hw">
+                        <option value="">---Classes---</option>
+                        <option value="CSE110">CSE 110</option>
+                        <option value="ECE100">ECE 100</option>
+                        <option value="ETHN 3">ETHN 3</option>
+                        <option value="CSE151A">CSE 151A</option>
+
+                    </select>
+                </div>
+                <br>
+                <div>
+                    <label for="time">Time you woke up:</label>
+                    <input type="text" name="time" id="time" required>
+                    <br>
+                    <label>Journal Entry:</label>
+                    <textarea id="journal" name="journal" rows="4" 
+                    cols="30">Today I...
+                    </textarea>
+                </div>
+                <br>
+                <div>
+                    <input type="submit" value="Post">
+                </div>
+            </form>
+
+        </footer>
+    </body>
+</html>
