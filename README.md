@@ -1,1 +1,1 @@
-https://jdeguzmaucsd.github.io/Lab2/
+https://jdeguzmaucsd.github.io/sp21-cse110-lab3/
