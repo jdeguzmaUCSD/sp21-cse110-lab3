@@ -23,10 +23,6 @@ p,
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
 }
 
-a[href*="saturday"] {
-  color: black;
-}
-
 @media (width: 500px) {
   p {
     color: #b2b2b2;
@@ -35,6 +31,10 @@ a[href*="saturday"] {
     padding-top: 30px;
     padding-bottom: 30px;
   }
+}
+
+a[href*="saturday"] {
+  color: black;
 }
 
 p:hover {
