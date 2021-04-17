@@ -1,0 +1,149 @@
+body {
+  background-color: rgb(73, 73, 73);
+  /* Font for entire page */
+
+  color: rgb(206, 228, 253);
+  text-align: start;
+}
+
+p,
+.class {
+  color: #b2b2b2;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#id {
+  color: red;
+}
+
+* {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+a[href*="saturday"] {
+  color: black;
+}
+
+@media (width: 500px) {
+  p {
+    color: #b2b2b2;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+}
+
+p:hover {
+  background-color: rgb(78, 78, 82);
+}
+
+li:hover {
+  margin-left: 10px;
+}
+
+h1 {
+  color: rgb(224, 224, 224);
+  margin-left: 35vw;
+}
+
+h2 {
+  color: rgb(224, 224, 224);
+  margin-left: 100px;
+}
+
+h3 {
+  text-decoration: underline;
+
+  color: hsl(0, 0, 87.8);
+  margin-top: 5vh;
+  margin-right: 50px;
+
+  margin-left: 10vw;
+}
+
+h4 + ol {
+  color: rgb(243, 245, 153);
+}
+
+div.list {
+  margin-left: 5vw;
+}
+
+h3 > section {
+  margin: 1em;
+}
+
+nav {
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  background-color: white;
+}
+
+p ~ img {
+  margin-left: 30vw;
+  border-radius: 20px;
+}
+
+video {
+  margin-left: 30vw;
+  border-radius: 20px;
+}
+
+audio {
+  margin-left: 35vw;
+  display: block;
+}
+
+div {
+  height: 30vh;
+  max-width: 50vw;
+}
+
+ol {
+  display: block;
+  margin-left: 350px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+ol li {
+  margin-top: 20px;
+}
+
+ul {
+  position: relative;
+  margin-left: 250px;
+  height: 9em;
+}
+
+button:hover {
+  color: gray;
+}
+
+audio:active {
+  background-color: red;
+}
+
+input {
+  display: grid;
+}
+
+label {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+}
+
+footer {
+  margin-left: 100px;
+  margin-right: 100px;
+}
